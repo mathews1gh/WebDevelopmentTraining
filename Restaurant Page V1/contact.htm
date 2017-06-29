@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Goodfellas Pizza</title>
+    </head>
+    <body>
+        <h1 style="text-align: center">Goodfellas Pizza</h1>
+        <hr>
+        <table style="width:200px">
+            <tr>
+                <td><a href="index.htm">Home</a></td>
+                <td><a href="menu.htm">Menu</a></td>
+                <td><a href="contact.htm">Contact Us</a></td>
+            </tr>
+        </table>
+        <hr>
+        <form action="#" method="POST">
+            <table>
+                <tr>
+                    <td style="text-align: right">Name:</td>
+                    <td><input type="text" name="Name"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Email:</td>
+                    <td><input type="text" name="Email"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Phone:</td>
+                    <td><input type="text" name="Phone"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Reason:</td>
+                    <td>
+                        <select name="ContactReason">
+                            <option value="Catering">Catering</option>
+                            <option value="Party">Private Party</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Additional Information:</td>
+                    <td><textarea name="AddlInfo" cols="30" rows="4"></textarea></td>
+                </tr>            
+                <tr>
+                    <td style="text-align: right">Have you been to the restaurant?</td>
+                    <td>
+                        <input type="radio" name="CurrentCustomer">Yes
+                        <input type="radio" name="CurrentCustomer">No
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Best days to contact you:</td>
+                    <td>
+                        <input type="checkbox" name="ContactDays">M
+                        <input type="checkbox" name="ContactDays">T
+                        <input type="checkbox" name="ContactDays">W
+                        <input type="checkbox" name="ContactDays">Th
+                        <input type="checkbox" name="ContactDays">F
+                    </td>
+                </tr>
+                <tr>
+                    <td/>
+                    <td style="text-align: right"><input type="submit" value="Send Request"></td>
+                </tr>
+            </table>
+        </form>
+        <div style="text-align: center">
+            <hr>
+            987 Pepperoni Parkway, Little Italy, NY  12345<br>
+            (202) 555-6789
+        </div>
+    </body>
+</html>

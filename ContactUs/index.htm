@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>"Contact Us" Form</title>
+    </head>
+    <body>
+        <form action="#" method="POST">
+            <table>
+                <tr>
+                    <td style="text-align: right">First Name:</td>
+                    <td><input type="text" name="FirstName"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Last Name:</td>
+                    <td><input type="text" name="LastName"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Email:</td>
+                    <td><input type="text" name="Email"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Type of License:</td>
+                    <td>
+                        <input type="radio" name="LicenseType">Business
+                        <input type="radio" name="LicenseType">Personal
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Reason:</td>
+                    <td>
+                        <select name="ContactReason">
+                            <option value="null">Select a Reason</option>
+                            <option value="software">Software Support</option>
+                            <option value="hardware">Hardware Support</option>
+                            <option value="info">Information Request</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right">Additional Information</td>
+                    <td><textarea name="AddlInfo" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td/>
+                    <td><input type="checkbox" name="TOSConfirm">I have read the terms of service</td>                    
+                </tr>
+                <tr>
+                    <td/>
+                    <td style="text-align: center"><input type="submit" value="Send Request"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
