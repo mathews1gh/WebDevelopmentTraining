@@ -1,0 +1,10 @@
+h1.restHeader {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+table.restHeader {
+    width:200px;
+}
+div.restFooter {
+    text-align: center;
+}
