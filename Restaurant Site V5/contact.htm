@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Goodfellas Pizza</title>
+    <link rel="stylesheet" href="restaurantStyles.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+</head>
+<style>
+    .contactLabel {
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+<body>
+    <h1 class="restHeader">Goodfellas Pizza</h1>
+    <hr>
+    <ul class="nav nav-tabs">
+        <li><a href="index.htm"><span class="glyphicon glyphicon-home" /></a></li>
+        <li><a href="menu.htm">Menu</a></li>
+        <li class="active"><a href="contact.htm">Contact Us</a></li>
+    </ul>
+    <hr>
+    <form action="#" method="POST">
+        <table>
+            <tr>
+                <td class="contactLabel" style="font-weight:bold">Name:</td>
+                <td><input type="text" name="Name"></td>
+            </tr>
+            <tr>
+                <td class="contactLabel" style="font-weight:bold">Email:</td>
+                <td><input type="text" name="Email"></td>
+            </tr>
+            <tr>
+                <td class="contactLabel">Phone:</td>
+                <td><input type="text" name="Phone"></td>
+            </tr>
+            <tr>
+                <td class="contactLabel" style="font-weight:bold">Reason:</td>
+                <td>
+                    <select name="ContactReason">
+                            <option value="Catering">Catering</option>
+                            <option value="Party">Private Party</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="contactLabel">Additional Information:</td>
+                <td><textarea name="AddlInfo" cols="30" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td class="contactLabel">Have you been to the restaurant?</td>
+                <td>
+                    <input type="radio" name="CurrentCustomer">Yes
+                    <input type="radio" name="CurrentCustomer">No
+                </td>
+            </tr>
+            <tr>
+                <td class="contactLabel" style="font-weight:bold">Best days to contact you:</td>
+                <td>
+                    <input type="checkbox" name="ContactDays">M
+                    <input type="checkbox" name="ContactDays">T
+                    <input type="checkbox" name="ContactDays">W
+                    <input type="checkbox" name="ContactDays">Th
+                    <input type="checkbox" name="ContactDays">F
+                </td>
+            </tr>
+            <tr>
+                <td/>
+                <td class="contactLabel"><input type="submit" value="Send Request"></td>
+            </tr>
+        </table>
+    </form>
+    <div class="restFooter">
+        <hr> 987 Pepperoni Parkway, Little Italy, NY 12345<br> (202) 555-6789
+    </div>
+</body>
+
+</html>
