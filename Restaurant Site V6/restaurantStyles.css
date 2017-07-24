@@ -1,0 +1,16 @@
+h1.restHeader {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+div.restFooter {
+    text-align: center;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    text-decoration: none;
+}
